@@ -9,12 +9,14 @@
     flex-direction: column;
     height: 100vh;
     padding: 0 10px;
+    min-width: 270px;    
     width: 450px;
 }
 
 .journal__sidebar-navbar{
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .journal__sidebar-navbar h3{

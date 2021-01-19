@@ -6,12 +6,15 @@
     font-size: 12px;
     padding: 7px 10px 7px 10px;
 
-    transition: background-color .2s ease;
+    transition: background-color .2s ease, color .3s ease;
 
     &:focus{
         outline: none;
     }
 
+    &:hover{
+        color: darken($color: #fff, $amount: 10);
+    }
 }
 
 .btn-primary{

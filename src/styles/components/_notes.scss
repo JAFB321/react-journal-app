@@ -1,0 +1,38 @@
+.notes__main-content{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.notes__appbar{
+    align-items: center;
+    background-color: $primary;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.notes__content{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+}
+
+.notes__image img{
+    border-radius: 10px;
+}
+
+.notes__title-input, .notes__textarea{
+    border: none;
+
+    &:focus{
+        outline: none;
+    }
+}
+
+.notes__title-input{
+    color: $dark-grey;
+    font-size: 25px;
+}
