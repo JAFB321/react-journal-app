@@ -4,14 +4,14 @@ import { JournalUnselected } from "./JournalUnselected";
 import { Sidebar } from "./Sidebar";
 
 export const JournalScreen = () => {
-  return (
-    <div className="journal__main-content">
-      <Sidebar />
+	return (
+		<div className="journal__main-content">
+			<Sidebar />
 
-      <main>
-        {/* <JournalUnselected /> */}
-        <NoteScreen />
-      </main>
-    </div>
-  );
+			<main>
+				{/* <JournalUnselected /> */}
+				<NoteScreen />
+			</main>
+		</div>
+	);
 };
