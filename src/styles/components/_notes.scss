@@ -16,12 +16,14 @@
 .notes__content {
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+	height: 100%;
 	padding: 20px;
 }
 
 .notes__image img {
-	border-radius: 10px;
+	border-radius: 15px;
+	box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+	height: 150px;
 }
 
 .notes__title-input,
@@ -36,4 +38,12 @@
 .notes__title-input {
 	color: $dark-grey;
 	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.notes__textarea {
+	color: $dark-grey;
+	flex: 1 1 auto;
+	resize: none;
 }
